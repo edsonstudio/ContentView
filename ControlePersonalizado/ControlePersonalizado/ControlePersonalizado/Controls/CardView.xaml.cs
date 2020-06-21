@@ -20,6 +20,7 @@ namespace ControlePersonalizado.Controls
         public static readonly BindableProperty CardColorProperty = BindableProperty.Create(nameof(CardColor), typeof(Color), typeof(CardView), Color.White);
         public static readonly BindableProperty IconImageSourceProperty = BindableProperty.Create(nameof(IconImageSource), typeof(ImageSource), typeof(CardView), default(ImageSource));
         public static readonly BindableProperty IconBackgroundColorProperty = BindableProperty.Create(nameof(IconBackgroundColor), typeof(Color), typeof(CardView), Color.LightGray);
+        public static readonly BindableProperty TextColorProperty = BindableProperty.Create(nameof(TextC), typeof(Color), typeof(CardView), Color.Black);
 
         public string CardTitle
         {
@@ -56,10 +57,10 @@ namespace ControlePersonalizado.Controls
             get => (Color)GetValue(CardView.IconBackgroundColorProperty);
             set => SetValue(CardView.IconBackgroundColorProperty, value);
         }
-        public Color CardTextColor
+        public Color TextC
         {
-            get => (Color)GetValue(CardView.CardTitleProperty);
-            set => SetValue(CardView.CardTitleProperty, value);
+            get => (Color)GetValue(CardView.TextColorProperty);
+            set => SetValue(CardView.TextColorProperty, value);
         }
         public CardView()
         {
