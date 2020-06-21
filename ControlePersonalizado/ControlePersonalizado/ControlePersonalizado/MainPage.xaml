@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:ControlePersonalizado.Controls"
+             mc:Ignorable="d"
+             x:Class="ControlePersonalizado.MainPage"
+             Title="CardView XAMAL"
+             Padding="25">
+    <ScrollView>
+        <StackLayout>
+            <controls:CardView BorderColor="DarkGray"
+                               CardTitle="Edson Costa"
+                               CardDescription="SENAI - Desenvolvedor de Sistemas."
+                               IconBackgroundColor="Red"
+                               IconImageSource="C:\mobile\ContentView\ControlePersonalizado\ControlePersonalizado\ControlePersonalizado.Android\Resources\drawable\ft.jpg" />
+            <controls:CardView BorderColor="DarkGray"
+                               CardTitle="Slavko Vlasic"
+                               CardDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla elit dolor, convallis non interdum."
+                               IconBackgroundColor="SlateGray"
+                               IconImageSource="C:\mobile\ContentView\ControlePersonalizado\ControlePersonalizado\ControlePersonalizado.Android\Resources\drawable\user.png" />
+            <controls:CardView BorderColor="DarkGray"
+                               CardTitle="Slavko Vlasic"
+                               CardDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla elit dolor, convallis non interdum."
+                               IconBackgroundColor="SlateGray"
+                               IconImageSource="user.png" />
+            <controls:CardView BorderColor="DarkGray"
+                               CardTitle="Slavko Vlasic"
+                               CardDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla elit dolor, convallis non interdum."
+                               IconBackgroundColor="SlateGray"
+                               IconImageSource="user.png" />
+            <controls:CardView BorderColor="DarkGray"
+                               CardTitle="Slavko Vlasic"
+                               CardDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla elit dolor, convallis non interdum."
+                               IconBackgroundColor="SlateGray"
+                               IconImageSource="user.png" />
+        </StackLayout>
+        
+    </ScrollView>   
+</ContentPage>

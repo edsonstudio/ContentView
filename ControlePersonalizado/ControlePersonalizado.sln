@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlePersonalizado.Android", "ControlePersonalizado\ControlePersonalizado.Android\ControlePersonalizado.Android.csproj", "{5F952EF6-153C-4B5D-80D5-8E9FBF730F6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlePersonalizado", "ControlePersonalizado\ControlePersonalizado\ControlePersonalizado.csproj", "{7FE6DE33-9D12-496A-A8D6-8A1903455624}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F952EF6-153C-4B5D-80D5-8E9FBF730F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F952EF6-153C-4B5D-80D5-8E9FBF730F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F952EF6-153C-4B5D-80D5-8E9FBF730F6E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5F952EF6-153C-4B5D-80D5-8E9FBF730F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F952EF6-153C-4B5D-80D5-8E9FBF730F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F952EF6-153C-4B5D-80D5-8E9FBF730F6E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7FE6DE33-9D12-496A-A8D6-8A1903455624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE6DE33-9D12-496A-A8D6-8A1903455624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE6DE33-9D12-496A-A8D6-8A1903455624}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7FE6DE33-9D12-496A-A8D6-8A1903455624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE6DE33-9D12-496A-A8D6-8A1903455624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE6DE33-9D12-496A-A8D6-8A1903455624}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECECE4BD-C2B2-409B-8972-B0AF9E130924}
+	EndGlobalSection
+EndGlobal
